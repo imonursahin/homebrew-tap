@@ -11,6 +11,12 @@ cask "archo" do
 
   app "Archo.app"
 
+  # Archo is unsigned; strip the quarantine flag after install so Gatekeeper
+  # doesn't block the first launch (no Terminal step needed by the user).
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Archo.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/agent-studio",
   ]

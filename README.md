@@ -6,9 +6,5 @@ Install [Archo](https://github.com/imonursahin/archo):
 brew install --cask imonursahin/tap/archo
 ```
 
-Archo is an unsigned app, so macOS quarantines downloads. If it won't open, install
-without quarantine:
-
-```bash
-brew install --cask --no-quarantine imonursahin/tap/archo
-```
+The cask strips the quarantine flag on install, so the app opens normally even
+though it is unsigned.
