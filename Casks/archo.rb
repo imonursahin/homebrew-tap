@@ -1,6 +1,6 @@
 cask "archo" do
-  version "0.2.1"
-  sha256 "35e00e789a922c65c04e235399c085ba55dc07c8ceb142220d76494d57a8847b"
+  version "0.2.2"
+  sha256 "101a457c1918ceed669d8e87941e828c02697a81f6893ad25428fabe229e61d2"
 
   url "https://github.com/imonursahin/archo/releases/download/v#{version}/Archo-#{version}-arm64.dmg"
   name "Archo"
