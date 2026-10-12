@@ -8,14 +8,13 @@ cask "review-radar" do
   homepage "https://github.com/imonursahin/review-radar"
 
   depends_on arch: :arm64
+  depends_on :macos
 
   app "Review Radar.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/Review Radar.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/Review Radar.app"]
   end
 
-  zap trash: [
-    "~/Library/Application Support/Review Radar",
-  ]
+  zap trash: "~/Library/Application Support/Review Radar"
 end
