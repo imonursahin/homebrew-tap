@@ -1,6 +1,6 @@
 cask "review-radar" do
-  version "1.1.0"
-  sha256 "0ddc4ba42a303e274f03614e9d3c00d33060a79ebebf73b114908acab66e4b1b"
+  version "1.2.0"
+  sha256 "420270207844f3958ce0925827e0bd9e873a8d6c43d26ec5b820675438dcf802"
 
   url "https://github.com/imonursahin/review-radar/releases/download/v#{version}/ReviewRadar-#{version}-arm64.dmg"
   name "Review Radar"
