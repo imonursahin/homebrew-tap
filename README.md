@@ -6,6 +6,12 @@ Install [Archo](https://github.com/imonursahin/archo):
 brew install --cask imonursahin/tap/archo
 ```
 
+Install [Kokpit](https://github.com/imonursahin/kokpit):
+
+```bash
+brew install --cask imonursahin/tap/kokpit
+```
+
 Install [Review Radar](https://github.com/imonursahin/review-radar):
 
 ```bash
