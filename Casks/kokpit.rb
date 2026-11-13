@@ -1,6 +1,6 @@
 cask "kokpit" do
-  version "0.1.42"
-  sha256 "799ed882af88b3564dfd656814bb1d19cc7e8dc43d0f36ba65dc1eef4027a9d9"
+  version "0.1.43"
+  sha256 "04de6000372877bd5ef70f057bb6d5a4f7be6b75195c48220ab1897b0a48672e"
 
   url "https://github.com/imonursahin/kokpit/releases/download/v#{version}/Kokpit-#{version}-arm64.dmg"
   name "Kokpit"
